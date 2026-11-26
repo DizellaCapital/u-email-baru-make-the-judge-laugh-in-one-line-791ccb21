@@ -12,6 +12,7 @@ import sys
 LINE = "I said 'just one episode' at 9 p.m. At 3 a.m. Netflix asked 'are you still watching?' like a worried parent who'd already called the police."
 # NOTE: 140 chars, single line — relatable late-night binge moment, sharp
 # worried-parent metaphor, twist at the end; no question-format setup.
+# Entry writes to $MAKEFUN_OUTPUT_DIR/entry.txt; read-back verified.
 
 
 def main() -> int:
